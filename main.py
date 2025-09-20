@@ -1,24 +1,24 @@
-def addmultiplenumbers(numeros):
+def addmultiplenumbers(numeros): # Esta herramienta de suma facilita el cálculo de la suma de una lista de números.
  result = 0
  for num in numeros:
    result = result + num 
  return result
  
-def multiplymultiplenumbers(numeros):
+def multiplymultiplenumbers(numeros): # multiplicando los dos primeros números, luego tomando ese resultado y multiplicándolo por el tercer número, y continuando este proceso hasta que hayas multiplicado todos los números juntos
    result = 1
    for num in numeros:
       result *= num 
    return result
     
    
-def isiteven(num):
+def isiteven(num): #se refiere a una función o problema en programación que determina si un número dado es par o impar
     if isinstance(num, int):
         return num % 2 == 0
     return False  
 
 
 
-def isitaninteger(num):
+def isitaninteger(num): #cualquier número entero positivo o negativo, incluido el cero, que no tenga partes decimales ni fraccionarias
  return isinstance(num, int)  
  
 def main():
